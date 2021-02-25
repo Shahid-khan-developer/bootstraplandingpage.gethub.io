@@ -1,0 +1,122 @@
+
+a button:hover{
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+.back{
+	position: relative;
+	background: url(../img/khan.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+
+ .overly{
+	position: absolute;
+	background-color: #212529;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: .3;
+	z-index: -1;
+}	
+.form-control-lg{
+	height: calc(1.5em + 1rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem
+}
+
+/*.icon-screen-desktop:before{
+	content: "f108";
+}*/
+
+.features-icons .future-icons-item .future-icons-icons{
+	height: 7rem;
+}
+
+.features-icons{
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+
+.features-icons .future-icons-item{
+	max-width: 20rem;
+}
+
+.features-icons .future-icons-item .future-icons-icons li{
+	font-size: 4.5rem;
+	font-weight: 5px;
+}
+
+.showcase .showcase-img{
+	min-height: 30rem;
+	background-size: cover;
+}
+
+.showcase .showcase-text{
+	padding: 3rem;
+}
+
+.testimonials{
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+
+.testimonials .testimonials-item{
+	max-width: 18rem;
+}
+
+.testimonials .testimonials-item img{
+	max-width: 12rem;
+	box-shadow: 0 5px 5px 0;
+}
+
+.call-to-action{
+	position: relative;
+	background-color: #343a40;
+	background: url(../img/shahid.jpg) no-repeat center center;
+	background-size: cover;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+
+.call-to-action .overly{
+	position: absolute;
+	background-color: #212529;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 5.3;
+}
+
+footer .footer{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.fa-twitter:hover{
+	color: #56abec;
+}
+
+.fa-facebook:hover{
+	color: #1775f1;
+}
+
+.fa-instagram:hover{
+	color: #fe4164;
+}

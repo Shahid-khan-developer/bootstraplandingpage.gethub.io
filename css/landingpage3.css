@@ -1,0 +1,192 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+p{
+	font-size: 0.9rem;
+	font-weight: 400;
+	color: #606060;
+	line-height: 1.6;
+}
+
+li{
+	list-style: none;
+}
+
+li{
+	color: #2fccd0;
+}
+
+/*********** actual css start***********/
+
+.extra_div h2, .service_div h2{
+	font-size: 0.9rem;
+	margin: 20px 0 15px 0;
+	font-weight: bold;
+	line-height: 1.1;
+	word-spacing: 4px;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0,186,255,0.3), rgba(0,186,255,0.3)), url('../img/khan.jpg');
+	background-repeat: no-repeat;
+	clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+	background-size: cover;
+	position: relative;
+}
+
+
+.header:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0px;
+	bottom: 0px;
+	opacity: .3;
+	z-index: -1;
+	background: linear-gradient(to left, #1e5799 0%, #3ccddb 0%, #16c9f6 100%);
+}
+
+.navbar:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0px;
+	bottom: 0px;
+	opacity: .3;
+	z-index: -1;
+	background: linear-gradient(to left, #1e5799 0%, #3ccddb 0%, #16c9f6 100%);
+}
+
+.nav-item a{
+	font-weight: bold;
+	color: #fff;
+}
+
+.header_section{
+	width: 100%;
+	height: inherit;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.center_div{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.header_buttons a{
+	border: 1px solid #ffff;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #ffff;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+	text-decoration: none;
+}
+
+.header_buttons a:hover{
+	color: #50d1c0;
+	background-color: #fff;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.center_div p{
+	font-size: 1.3rem;
+	padding: 10px 0 20px 0;
+	color: #ffff;
+}
+
+.header_extradiv{
+	width: 100%;
+	height: auto;
+	margin: 100px 0;
+	text-align: center;
+}
+
+.extra_div{
+	background-color: #ffffff;
+	border: medium none;
+	padding: 50px !important;
+	border-radius: 3px;
+	transition: all linear 0.3s;
+}
+
+.extra_div:hover{
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+	transform: translateY(-20px);
+}
+
+
+/*serivce offer start*/
+
+.serivce_offer{
+	background: #f7f7f9;
+	padding: 50px 0;
+	margin-bottom: 50px;
+}
+
+.headings{
+	margin-bottom: 50px;
+}
+
+.headings h1{
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.names h1{
+	color: #2e2e2e;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.service_icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.progress{
+	height: 0.7rem !important;
+	margin-bottom: 25px !important;
+	background: #606060;
+}
+
+.project_work{
+	margin: 100px 0;
+}
+
+.project_work h1{
+	font-size: 2rem;
+	text-align: center;
+}
+
+
+
+/*service offer end*/
